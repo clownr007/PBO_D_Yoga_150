@@ -20,8 +20,8 @@ public class LoginSystem {
             String password = scanner.nextLine();
 
             // Validasi username dan password
-            String validUsername = "Admin010";  // Ganti dengan 3-digit NIM terakhir Anda
-            String validPassword = "Password010";  // Ganti dengan 3-digit NIM terakhir Anda
+            String validUsername = "Admin150";  
+            String validPassword = "Password150"; 
 
             if (username.equals(validUsername) && password.equals(validPassword)) {
                 System.out.println("Login Admin berhasil!");
@@ -37,8 +37,8 @@ public class LoginSystem {
             String nim = scanner.nextLine();
 
             // Validasi nama dan NIM
-            String validNama = "Ken Aryo Bimantoro";  // Ganti dengan nama Anda
-            String validNIM = "202310370311006";  // Ganti dengan NIM Anda
+            String validNama = "M.Yoga Adra Assajad";  
+            String validNIM = "202410370110150";  
 
             if (nama.equals(validNama) && nim.equals(validNIM)) {
                 System.out.println("Login Mahasiswa berhasil!");
